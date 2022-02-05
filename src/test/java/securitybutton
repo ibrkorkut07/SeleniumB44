@@ -1,0 +1,5 @@
+driver.get("https://a.testaddressbook.com");
+        WebElement advancedLink = driver.findElement(By.id("details-button"));
+        advancedLink.click();
+        WebElement proceedLink = driver.findElement(By.id("proceed-link"));
+        proceedLink.click();
